@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.punti {
+    font-size: 90px;
+    margin-bottom: 25px;
+}
+
+.punteggio {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.tempo {
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.griglia {
+    display: grid;
+    grid-template-columns: repeat(4, 130px);
+    grid-template-rows: repeat(4, 130px);
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+}
+
+.cellblock {
+    align-items: center;
+    background-color: bisque;
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: yellow;
+}
+
+.iniziogioco {
+    margin: 20px;
+    margin-top: 25px;
+    font-size: 18px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.iniziogioco:hover {
+    background-color: turquoise;
+}
